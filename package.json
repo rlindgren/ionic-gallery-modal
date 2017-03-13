@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "preinstall" : "npm run prepublish",
+    "install" : "npm run prepublish",
     "build": "npm run clean:build && npm run copy:build && npm run build:css && npm run template:inline && npm run build:js && npm run clean:build && npm run clean:rename",
     "copy:build": "cp -R src dist",
     "clean:build": "rm -rf dist",
